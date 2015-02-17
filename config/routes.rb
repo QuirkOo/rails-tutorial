@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'static_page_controller/home'
+
+  get 'static_page_controller/help'
+
   resources :microposts
   resources :users
 
